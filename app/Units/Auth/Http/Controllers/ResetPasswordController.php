@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use Car7axo\Laravel\Support\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
+use Car7axo\Laravel\Support\Unit\Http\Controllers\Controller;
+use App\Units\Core\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

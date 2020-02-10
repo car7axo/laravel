@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use Car7axo\Laravel\Support\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
+use Car7axo\Laravel\Support\Unit\Http\Controllers\Controller;
+use App\Units\Core\Providers\RouteServiceProvider;
 use App\Domains\Users\Entities\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
